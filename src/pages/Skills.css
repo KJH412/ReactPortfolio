@@ -1,0 +1,34 @@
+.skillWrap{
+    display: flex;
+    gap:calc(100%/6);
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.skillWrap .imgBox,
+.designImg{
+    width: 200px;
+}
+.skillWrap .imgBox{
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.designImg{
+    background-color: none;
+}
+.skillWrap img{
+    width: 100%;
+    transform: scale(0.9);
+}
+.skillWrap .textBox>strong{
+   font-size: 24px;
+}
+/* Front.js */
+.subTitle>h2{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.skillTitle{
+    margin-bottom: 50px;
+}

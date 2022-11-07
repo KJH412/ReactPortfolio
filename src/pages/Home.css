@@ -1,0 +1,15 @@
+/* Home */
+.maskTxt{
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+/*--- */
+background-clip: text;
+color: rgba(0,0,0,0);
+}
+.maskText{}
+.maskText>.mask{
+  font-size: 70px;
+  font-weight: bold;
+/* 
+background-clip: text;
+color: rgba(0,0,0,0); */
+}

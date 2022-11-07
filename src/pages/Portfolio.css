@@ -1,0 +1,50 @@
+.portfolioWrap{
+    text-align: center;
+}
+.titleBox{
+    text-align: center;
+    margin: 50px 0;
+}
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    border: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+.slick-arrow:hover{
+    transform: scale(0.8);
+}
+.slick-prev{
+    left:0;
+    background: url(../images/left_arrow_icon.png) no-repeat center center;
+}
+.slick-next{
+    right: 0;
+    background: url(../images/arrow_right_icon.png) no-repeat center center;
+}
+.slick-slide img {
+    display: inline-block;
+    filter: drop-shadow(0 0 2px white);
+}
+.gitLink{
+    padding: 20px 0;
+}
+.gitLink a{
+    text-decoration: none;
+    color: #fff;
+}
+.proImg{
+    transform: scale(0.8);
+}
+.proImg>h2>span{
+    font-size: 18px;
+}
+.yellow{
+    color: yellow;
+}

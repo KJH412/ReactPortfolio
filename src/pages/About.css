@@ -1,0 +1,24 @@
+
+.aboutWrap {
+    display: flex;
+    gap: 20px;
+}
+.aboutWrap .bgImg{
+    flex: 1;
+}
+.aboutWrap .bgImg img{
+    width: 100%;
+}
+.aboutWrap .box{
+    background-color: white;
+    color: #222;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    column-gap: 20px;
+    align-items: center;
+}
+.aboutWrap .box img{
+    width: 50px;
+}
