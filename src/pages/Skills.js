@@ -35,7 +35,7 @@ const frontSkill = [
 const backSkill = [
     {id:1, title:"JAVA", icon:"images/java.png"},
     {id:2, title:"JSP", icon:"images/jsp.png"},
-    {id:3, title:"mySQL", icon:"images/sql.png"}
+    {id:3, title:"SQL", icon:"images/sql.png"}
 ]
 
 const designSkill = [

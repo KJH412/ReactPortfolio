@@ -19,6 +19,7 @@
 }
 .slick-arrow:hover{
     transform: scale(0.8);
+    filter: drop-shadow(0 0 5px white);
 }
 .slick-prev{
     left:0;
@@ -35,16 +36,24 @@
 .gitLink{
     padding: 20px 0;
 }
+.gitLink>h2{
+    padding: 20px 0;
+}
 .gitLink a{
-    text-decoration: none;
+    text-decoration: none;   
     color: #fff;
+    animation: SlideUp;
+    animation-duration: 4s;
+}
+.gitLink a:hover{
+    filter: drop-shadow(0 0 3px white);
 }
 .proImg{
     transform: scale(0.8);
 }
+.proImg>h1{
+
+}
 .proImg>h2>span{
     font-size: 18px;
-}
-.yellow{
-    color: yellow;
 }

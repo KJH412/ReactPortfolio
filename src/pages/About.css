@@ -2,9 +2,14 @@
 .aboutWrap {
     display: flex;
     gap: 20px;
+    padding: 70px 0 0;
+}
+.aboutWrap>h2{
+    padding: 0 50px 0 0;
+    font-size: 40px;
 }
 .aboutWrap .bgImg{
-    flex: 1;
+    /* flex: 1; */
 }
 .aboutWrap .bgImg img{
     width: 100%;
@@ -18,6 +23,11 @@
     padding: 20px;
     column-gap: 20px;
     align-items: center;
+    transition: 0.5s;
+    width: 300px;
+}
+.aboutWrap .box:hover{
+    filter: drop-shadow(0 0 7px white);
 }
 .aboutWrap .box img{
     width: 50px;

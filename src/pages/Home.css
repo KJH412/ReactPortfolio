@@ -1,15 +1,45 @@
 /* Home */
+.titleBox>h3{
+  font-size: 30px;
+  animation: fadeIn;
+  animation-duration: 4s; 
+}
 .maskTxt{
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-/*--- */
+font-size: 30px;
+animation: fadeIn;
+animation-duration: 4s;
+white-space: nowrap;
+}
+
+.maskText{
+background-position: 0;
+background-image: linear-gradient(to right, #555555 0, white 10%, #555555 20%);
 background-clip: text;
 color: rgba(0,0,0,0);
+animation: shine 3s infinite linear;
+animation-fill-mode: forwards;
+white-space: nowrap;
 }
-.maskText{}
+
 .maskText>.mask{
   font-size: 70px;
   font-weight: bold;
 /* 
 background-clip: text;
 color: rgba(0,0,0,0); */
+}
+
+@keyframes shine{
+  0%{
+    background-position: 0
+  }
+  50%{
+    background-position: 180px
+  }
+  70%{
+    background-position: 300px
+  }
+  100%{
+    background-position: 550px
+  }
 }

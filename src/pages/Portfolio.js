@@ -20,26 +20,27 @@ const Portfolio = () =>{
                     <Slider {...settings}>
                         <div className="proImg">
                             <h1>01</h1>
-                            <h2>THE BREAD EARTH</h2>
-                            <img src="images/project11.png" />
+                            <img src="images/project1.png" />
                             <div className="gitLink">
-                                <a href="https://kjh412.github.io/Portfolio1/index.html" target="_blank">사이트 보기</a> 
+                                <h2>TheBreadEarth : 비건베이커리 반응형 웹사이트</h2>
+                                <a href="https://kjh412.github.io/Portfolio1/index.html" target="_blank">사이트 보러가기</a> 
                                 {/* _blank : 새창으로 열림. */}
                             </div>
                         </div>
                         <div className="proImg">
                             <h1>02</h1>
-                            <h2>HBIKE</h2>
-                            <img src="images/project22.png" />
+                            <img src="images/project2.png" />
                             <div className="gitLink">
+                                <h2>HBIKE(에이치바이크) : 산악&로드자전거 반응형 웹사이트 </h2>
                                 <a href="https://kjh412.github.io/Portfolio2/" target="_blank">사이트 보러가기</a> 
                             </div>
                         </div>
                         <div className="proImg">
-                            {/* <h2>제목3</h2> */}
-                            <img src="images/project3.png"/> <h1 className="yellow">작업중</h1>
+                            <h1>03</h1>
+                            <img src="images/project3.png"/>
                             <div className="gitLink">
-                                <a href="#void" target="_blank">사이트 준비중</a> 
+                                <h2>씨네Q : 영화관 반응형 웹사이트</h2>
+                                <a href="https://kjh412.github.io/Portfolio3/" target="_blank">사이트 보러가기</a> 
                             </div>
                         </div>
                     </Slider>

@@ -29,9 +29,11 @@ header>.innerBox{
   /* justify-content: ; */
   align-items: center;
   column-gap: 50px;
+  margin-top: 60px;
 }
 #nav>li>a{
   color: white;
+  font-size: 18px;
 }
 .container{
   padding: 50px 0;

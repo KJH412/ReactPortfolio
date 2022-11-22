@@ -10,9 +10,9 @@ class Todo extends Component{
   state={        
     uinput:"",   
     todos:[
-      {id:0, text:"리액트 정리하기",checked:false},
-      {id:1, text:"2차 프로젝트 끝내기", checked:false},
-      {id:2, text:"PDF만들기",checked:false}
+      {id:0, text:"메모를 추가 할 수 있습니다.",checked:false},
+      {id:1, text:"메모를 삭제하세요.", checked:false},
+      {id:2, text:"리액트 공부하기",checked:false}
     ]
   }
   //2.메서드
