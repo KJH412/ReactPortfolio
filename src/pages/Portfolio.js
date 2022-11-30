@@ -31,7 +31,7 @@ const Portfolio = () =>{
                             <h1>02</h1>
                             <img src="images/project2.png" />
                             <div className="gitLink">
-                                <h2>HBIKE(에이치바이크) : 산악&로드자전거 반응형 웹사이트 </h2>
+                                <h2>HBIKE(에이치바이크) : 산악&로드자전거 반응형 웹사이트 </h2>                               
                                 <a href="https://kjh412.github.io/Portfolio2/" target="_blank">사이트 보러가기</a> 
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const Portfolio = () =>{
                             <img src="images/project3.png"/>
                             <div className="gitLink">
                                 <h2>씨네Q : 영화관 반응형 웹사이트</h2>
-                                <a href="https://kjh412.github.io/Portfolio3/" target="_blank">사이트 보러가기</a> 
+                                <a href="https://kjh412.github.io/cineQ/" target="_blank">사이트 보러가기</a> 
                             </div>
                         </div>
                     </Slider>
