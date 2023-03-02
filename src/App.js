@@ -1,6 +1,5 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-// 
 import Home from './pages/Home';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Layout from './pages/Layout';

@@ -1,15 +1,48 @@
+/* 폰트 */
+@font-face {
+  font-family: 'GongGothicMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* animation */
+@keyframes rightIn{
+  0%{
+      opacity: 0.3;
+      position: relative;
+      left: 20%;
+  }
+  100%{
+      opacity: 1;
+      position: relative;
+      left: 0;
+  }
+}
+@keyframes fadeIn{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+::selection{
+  background-color: yellowgreen;
+  color:#fff;
+}
+/* 기본설정 */
 *{
   padding: 0;
   margin: 0;
+  font-family: 'GongGothicMedium';
+  font-weight: normal;
 }
 li{ list-style: none;}
 a{  text-decoration: none;}
 img{ vertical-align: top;}
 body{
-  background: url(images/universe2.jpg) no-repeat;
-  background-size: 100vw;
-  color:white;
-  /* background-image: linear-gradient(60deg, #082138 0%, #4C1C4A 100%); */
+  color:#666;
+  font-size: 12px;
 }
 
 .innerBox{
@@ -17,35 +50,43 @@ body{
   margin:0 auto;
 }
 header{
-  /* border-bottom: 1px solid #333; */
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
 header>.innerBox{
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
   display: flex;
   justify-content: space-between;
 }
 #nav{
   display: flex;
-  /* justify-content: ; */
   align-items: center;
   column-gap: 50px;
   margin-top: 60px;
 }
 #nav>li>a{
-  color: white;
+  color: #666;
   font-size: 18px;
+  font-weight: bold;
+}
+#nav>li>a:hover{
+  color:yellowgreen;
 }
 .container{
   padding: 50px 0;
+  height: 100%;
 }
 .container>.titleBox{
   position: absolute;
-  top: 30%;
+  top: 45%;
   right: 50%;
   transform: translateX(50%);
 }
-.titleBox_port{
+/* Todo.js */
+.titleBox_todo{
   position: absolute;
   right: 50%;
   transform: translateX(50%);
+}
+.titleBox_todo{
+  text-align: center;  
 }
