@@ -23,7 +23,7 @@ const Portfolio = () =>{
                             <img src="images/project1.png" />
                             <div className="gitLink">
                                 <h2>TheBreadEarth : 비건베이커리 반응형 웹사이트</h2>
-                                <a href="https://kjh412.github.io/Portfolio1/index.html" target="_blank">사이트 보러가기</a> 
+                                <a href="https://kjh412.github.io/TheBreadEarth/index.html" target="_blank">사이트 보러가기</a> 
                                 {/* _blank : 새창으로 열림. */}
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const Portfolio = () =>{
                             <img src="images/project2.png" />
                             <div className="gitLink">
                                 <h2>HBIKE(에이치바이크) : 산악&로드자전거 반응형 웹사이트 </h2>                               
-                                <a href="https://kjh412.github.io/Portfolio2/" target="_blank">사이트 보러가기</a> 
+                                <a href="https://kjh412.github.io/HBIKE/" target="_blank">사이트 보러가기</a> 
                             </div>
                         </div>
                         <div className="proImg">
