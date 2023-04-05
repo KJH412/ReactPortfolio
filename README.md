@@ -1,4 +1,4 @@
-# ReactJs를 활용한 개인포트폴리오 사이트
+# ReactJs를 활용한 개인 포트폴리오 사이트
 <a href="https://kjh412.github.io/ReactPortfolio/build/index.html">사이트 이동하기</a>
 
 ### 프로젝트 소개
