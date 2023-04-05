@@ -1,1 +1,1 @@
-<a>https://github.com/KJH412/ReactPortfolio/build/index.html</a>
+<a>https://kjh412.github.io/ReactPortfolio/build/index.html</a>
